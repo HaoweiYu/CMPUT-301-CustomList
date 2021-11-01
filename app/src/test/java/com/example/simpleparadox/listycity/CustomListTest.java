@@ -14,6 +14,7 @@ public class CustomListTest {
     @BeforeEach
     public void createList() {
         list = new CustomList(null, new ArrayList<City>());
+        list.addCity(new City("Red deer", "Alberta"));
     }
 
     @Test
